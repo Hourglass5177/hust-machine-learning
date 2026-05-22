@@ -1,0 +1,2 @@
+model,checkpoint,checkpoint_epoch,checkpoint_best_acc,evaluated_accuracy,num_test_samples
+mlp,outputs/checkpoints/mlp_best.pth,19,0.5452,0.5452,10000

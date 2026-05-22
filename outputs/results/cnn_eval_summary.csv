@@ -1,0 +1,2 @@
+model,checkpoint,checkpoint_epoch,checkpoint_best_acc,evaluated_accuracy,num_test_samples
+cnn,outputs/checkpoints/cnn_best.pth,50,0.9278,0.9278,10000

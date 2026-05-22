@@ -1,0 +1,5 @@
+{
+  "python.defaultInterpreterPath": "/home/hourglass5177/miniconda3/envs/ml-cifar10/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.defaultProfile.linux": "bash"
+}

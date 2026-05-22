@@ -1,0 +1,7 @@
+experiment,note,best_epoch,best_test_acc,best_test_loss,train_acc_at_best,final_epoch,final_train_acc,final_test_acc,final_lr
+MLP baseline,"MLP, Adam, no augmentation",19,0.5452,1.276421072769165,0.53246,20,0.53698,0.5356,0.001
+CNN main,"CNN, SGD, augmentation, lr=0.1, cosine scheduler",50,0.9278,0.2202607683181762,0.9551,50,0.9551,0.9278,9.866357858642205e-05
+CNN no augmentation,"CNN, SGD, no augmentation, lr=0.1",48,0.9058,0.3381297482013702,0.99664,50,0.9971,0.9047,9.866357858642205e-05
+CNN lr=0.01,"CNN, SGD, augmentation, lr=0.01, 30 epochs",28,0.8968,0.3105868062019348,0.89674,30,0.89722,0.8957,2.7390523158632995e-05
+CNN lr=0.05,"CNN, SGD, augmentation, lr=0.05, 30 epochs",30,0.9167,0.253787131023407,0.93764,30,0.93764,0.9167,0.0001369526157931
+CNN lr=0.10,"CNN, SGD, augmentation, lr=0.10, 30 epochs",29,0.9173,0.2451163716316223,0.9359,30,0.93886,0.9167,0.0002739052315863

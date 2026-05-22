@@ -1,0 +1,3 @@
+model,best_epoch,best_test_acc,best_test_loss,train_acc_at_best,train_loss_at_best,final_epoch,final_train_acc,final_test_acc
+MLP,19,0.5452,1.276421072769165,0.53246,1.315038642501831,20,0.53698,0.5356
+CNN,50,0.9278,0.2202607683181762,0.9551,0.1318080990195274,50,0.9551,0.9278

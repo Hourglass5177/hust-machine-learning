@@ -1,0 +1,2 @@
+mlp_best_acc,cnn_best_acc,absolute_improvement,relative_improvement
+0.5452,0.9278,0.38259999999999994,0.701760821716801

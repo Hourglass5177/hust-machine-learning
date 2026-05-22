@@ -1,0 +1,26 @@
+project:
+  name: ml-cifar10-project
+  task: CIFAR-10 image classification
+  seed: 42
+
+data:
+  root: /home/hourglass5177/datasets
+  num_classes: 10
+  image_size: 32
+  batch_size: 128
+  num_workers: 2
+  pin_memory: true
+
+train:
+  epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0005
+  optimizer: adam
+  device: cuda
+
+outputs:
+  root: outputs
+  checkpoints: outputs/checkpoints
+  logs: outputs/logs
+  figures: outputs/figures
+  results: outputs/results

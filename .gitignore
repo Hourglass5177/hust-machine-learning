@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Conda
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+
+# Dataset files
+data/
+datasets/
+cifar-10-batches-py/
+*.tar.gz
+*.zip
+
+# Large training artifacts
+outputs/checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# TensorBoard / logs that may be large
+runs/
+wandb/
+
+# Temporary backup/debug files
+backup_before_fix/
+*.bak
+
+# Optional generated cache
+.cache/

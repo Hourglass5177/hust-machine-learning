@@ -1,0 +1,18 @@
+name: ml-cifar10
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.11
+  - seaborn
+  - ipykernel
+  - pandas
+  - tqdm
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - scikit-learn
+  - tensorboard
+  - pillow
+  - numpy
+prefix: /home/hourglass5177/miniconda3/envs/ml-cifar10

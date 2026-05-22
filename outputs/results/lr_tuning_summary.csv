@@ -1,0 +1,4 @@
+learning_rate,history_file,best_epoch,best_test_acc,best_test_loss,train_acc_at_best,final_epoch,final_train_acc,final_test_acc,final_lr_after_scheduler
+0.01,outputs/logs/cnn_lr001_30ep_history.csv,28,0.8968,0.3105868062019348,0.89674,30,0.89722,0.8957,2.7390523158632995e-05
+0.05,outputs/logs/cnn_lr005_30ep_history.csv,30,0.9167,0.253787131023407,0.93764,30,0.93764,0.9167,0.0001369526157931
+0.1,outputs/logs/cnn_lr01_30ep_history.csv,29,0.9173,0.2451163716316223,0.9359,30,0.93886,0.9167,0.0002739052315863
